@@ -7,6 +7,7 @@ mkdir $FILE_DOWNLOADS
 source vscode.sh
 source flameshot.sh
 source dbeaver.sh
+source debInstal.sh
 
 source php-versions.sh
 source composer.sh
