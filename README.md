@@ -5,7 +5,7 @@ Install
 
 Clone onto your computer:
 
-    git clone git@github.com:NewLeonardooliv/DotFiles.git ~/dotfiles
+    git clone git@github.com:NewLeonardooliv/DotFiles.git
 
 And run:
 
