@@ -1,4 +1,9 @@
 # DotFiles
+Personal dotfiles for Linux systems.
+
+Requirements
+------------
+    sudo apt-get install git
 
 Install
 -------
