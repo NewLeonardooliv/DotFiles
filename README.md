@@ -10,7 +10,7 @@ Requirements
 Install
 -------
 
-Clone onto your computer:
+Clone to your computer:
 
     git clone git@github.com:NewLeonardooliv/DotFiles.git
 
