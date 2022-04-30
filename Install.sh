@@ -1,18 +1,18 @@
 #!/bin/bash
 
-pwd=$(pwd)
-FILE_DOWNLOADS="$HOME/Downloads/Programs"
-mkdir $FILE_DOWNLOADS
+mkdir Programs
 
 source vscode.sh
 source flameshot.sh
 source dbeaver.sh
 source debInstal.sh
 
-source php-versions.sh
+source apt.sh
+source php.sh
 source composer.sh
 
 source qbittorrent.sh
 source spotify.sh
+source ohMyZsh.sh
 
-sudo apt update && sudo apt upgrade -y
+sudo apt-get update && sudo apt-get upgrade

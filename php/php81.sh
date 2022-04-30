@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROGRAMAS_PARA_INSTALAR=(
+PROGRAMS=(
   php8.1 
   libapache2-mod-php8.1 
   php8.1-mysql
@@ -22,10 +22,10 @@ PROGRAMAS_PARA_INSTALAR=(
 
 sudo apt update -y
 
-for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
+for nome_do_programa in ${PROGRAMS[@]}; do
   if ! dpkg -l | grep -q $nome_do_programa; then
     apt install "$nome_do_programa" -y
   else
-    echo "[INSTALADO] - $nome_do_programa"
+    echo "[Install] - $nome_do_programa"
   fi
 done

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROGRAMAS_PARA_INSTALAR=(
+PROGRAMS=(
   php7.4 
   libapache2-mod-php7.4 
   php7.4-mysql
@@ -23,10 +23,10 @@ PROGRAMAS_PARA_INSTALAR=(
 sudo apt update -y
 
 # Install programs in apt - shell
-for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
+for nome_do_programa in ${PROGRAMS[@]}; do
   if ! dpkg -l | grep -q $nome_do_programa; then # Only install if not already installed
     apt install "$nome_do_programa" -y
   else
-    echo "[INSTALADO] - $nome_do_programa"
+    echo "[Install] - $nome_do_programa"
   fi
 done
