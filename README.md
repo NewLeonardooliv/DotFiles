@@ -1,5 +1,5 @@
 # DotFiles
-Personal DotFiles for Linux systems.
+Personal DotFiles.
 
 ![prompt](https://i.imgur.com/Djut9uH.png)
 
