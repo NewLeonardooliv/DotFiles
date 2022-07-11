@@ -18,6 +18,7 @@ PROGRAMS=(
   php7.1-memcached
   php7.1-json
   php7.1-redis
+  php7.1-soap
 )
 
 sudo apt update -y

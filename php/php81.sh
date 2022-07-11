@@ -18,6 +18,7 @@ PROGRAMS=(
   php8.1-memcached
   php8.1-json
   php8.1-redis
+  php8.1-soap
 )
 
 sudo apt update -y
