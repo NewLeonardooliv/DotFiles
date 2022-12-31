@@ -1,10 +1,10 @@
 #!/bin/bash
 
-mkdir Programs
+ARQUIVO_DOWNLOADS='Programs'
+mkdir $ARQUIVO_DOWNLOADS
 
 source vscode.sh
 source flameshot.sh
-source dbeaver.sh
 source debInstal.sh
 
 source apt.sh
@@ -13,6 +13,9 @@ source composer.sh
 
 source qbittorrent.sh
 source spotify.sh
+source dbeaver.sh
+source discord.sh
+source slack.sh
 source ohMyZsh.sh
 
-sudo apt-get update && sudo apt-get upgrade
+source update.sh

@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo dpkg -i $FILE_DOWNLOADS/*.deb
+ARQUIVO_DOWNLOADS='Programs'
+sudo dpkg -i $ARQUIVO_DOWNLOADS/*.deb
