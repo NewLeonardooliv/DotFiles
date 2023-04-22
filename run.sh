@@ -11,6 +11,7 @@ source apt.sh
 source php.sh
 source composer.sh
 
+source docker.sh
 source qbittorrent.sh
 source spotify.sh
 source dbeaver.sh
